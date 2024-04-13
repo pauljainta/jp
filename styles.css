@@ -1,11 +1,13 @@
 /* styles.css */
+
+/* General styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
   }
   
-  header {
+  .header {
     background-color: #333;
     color: #fff;
     padding: 10px 20px;
@@ -54,5 +56,17 @@ body {
   
   .section a:hover {
     text-decoration: underline;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 600px) {
+    nav ul {
+      text-align: center;
+    }
+  
+    nav ul li {
+      display: block;
+      margin-bottom: 10px;
+    }
   }
   
