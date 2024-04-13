@@ -13,28 +13,28 @@ body {
     padding: 10px 20px;
   }
   
-  nav ul {
+  .nav-links {
     list-style-type: none;
     padding: 0;
   }
   
-  nav ul li {
+  .nav-links li {
     display: inline;
     margin-right: 10px;
-    color: #333;
   }
   
-  nav a {
+  .nav-links a {
     color: #fff;
     text-decoration: none;
   }
   
-  nav a:hover {
+  .nav-links a:hover {
     text-decoration: underline;
   }
   
   .section {
     margin-bottom: 30px;
+    padding-left: 20px; /* Add padding for spacing */
   }
   
   .section h1 {
@@ -59,13 +59,38 @@ body {
     text-decoration: underline;
   }
   
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  .footer .social-links {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer .social-links li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .footer .social-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer .social-links a:hover {
+    text-decoration: underline;
+  }
+  
   /* Responsive styles */
   @media screen and (max-width: 600px) {
-    nav ul {
+    .nav-links {
       text-align: center;
     }
   
-    nav ul li {
+    .nav-links li {
       display: block;
       margin-bottom: 10px;
     }
