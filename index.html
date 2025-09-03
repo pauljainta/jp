@@ -58,9 +58,9 @@
     // Display news items in the container
     const newsList = document.getElementById("newsList");
     newsToShow.forEach((item) => {
-      const newsItem = document.createElement("li");
-      newsItem.textContent = item;
-      newsList.appendChild(newsItem);
+  const newsItem = document.createElement("li");
+  newsItem.innerHTML = item;
+  newsList.appendChild(newsItem);
     });
   </script>
 
